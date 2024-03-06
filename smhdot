@@ -262,7 +262,7 @@ spawn(function()
             game.Debris:AddItem(ADS, 0)
         end)
         
-        game.Debris:AddItem(ADS, 60)
+        game.Debris:AddItem(ADS, 0)
         
         function GroupAds:CreateAds(Image, Link)
             local ImageButton = Instance.new("ImageButton")
